@@ -6,10 +6,16 @@ body{
 	margin:0 auto;
 
 }
-/**header and nav**/
+
+
+/************ HEADER ************/
+
+
+
+/** HEADER LAYOUT **/
 #top {
 	width:100%;
-	height: 10%;
+	height: 20%;
 	margin-top: 0;
 	text-align: center;
 	background-color:gray;
@@ -19,80 +25,234 @@ body{
 	background-position: center;
 	background-size: cover;
 	background-color: black;
-	
-
 } 
-
+/** TITLE **/
 h1{
 	width:100%;
-	margin-top:;
 	font-family: 'cinzel';
 	font-size: 2em;
+	background-color: black;
 	color:white;
 	font-weight: bolder;
 	letter-spacing: 50px;
 	padding: 2% 0 1% 0;
-
 }
 
-/**nav bar**/
+
+
+/************ NAVIGATION BAR ************/
+
+
+
+
+/** Navigation Layout **/
 header ul {
 	width:100%;
-	height: %;
 	margin:0 auto;
 	background-color:black;
+	padding-bottom: 5px;
+	border-bottom:5px solid white;
 }
 
 
 header ul li {
-
 	display: inline-block;
 	text-decoration-style: none;
 	font-size: 1.3em;
-	padding: .7%;
+	padding: 1%;
 	background-color: black;
 	color:white;
 		
 }
 
 header ul li a {
-	padding: 180px;
 	color: white;
 	text-decoration: none;
+	padding:2px 80px;
 }
 
-/** navigation effects **/
+
+
+
+/************ NAVIGATION EFFECTS ************/
+
+
+
  a:hover{
- 	color:gray;
+ 	background-color: white;
+ 	color:black;
+ 	border-radius:0.5em;
  }
 
-/** content */
+.selected{
+	background-color: white;
+	color: black;
+	border-radius:0.5em;
+}
+
+
+/******************* FOOTER ******************/
+
+
+/** FOOTER LAYOUT **/
+footer{
+	position: relative;
+	max-width:100%;
+	height: 90px;
+	background-color: black;
+}
+
+/** COPYRIGHT TEXT LOCATION **/
+footer h3{
+	position: absolute;
+	top:15px;
+	left:700px;
+	padding:0;
+	color: white;
+}
+
+/** TWITTER ICON LOCATION **/
+.twitter{
+	position: absolute;
+	top:20px;
+    left:1050px;
+	height:50px;
+	width: 50px;
+}
+
+/** LINKED IN ICON LOCATION **/
+.linkedin{
+	position: absolute;
+	top:5px;
+    left:1100px;
+	height:80px;
+	width: 80px;
+}
+
+
+
+/***************** HOME PAGE *****************/
+
+
+/** CONTENT LAYOUT**/
 content{
 	max-width: 100%;
 }
 
+/** IMage Positioning **/
 .main-img{
 	max-width: 100%;
-	margin-bottom:0;
-	background-size:cover;
-	padding-bottom:-10%;
+	margin-bottom: 0;
+	width: 1976px;
+	height: 650px;
+	background-size: cover;
 }
 
-/**footer**/
-footer{
-	text-align: center;
-	background-color: black;
-	color:gray;
-	margin:0;
-	padding: 5px;
+
+
+/*************** ABOUT PAGE ****************/
+
+
+
+/**About Layout**/
+.container{
+	position: relative;
+	max-width:100%;
+	height: 650px;
+	background-image: url(../img/back-drop.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-footer p{
-
-	color: gray;
+/** Profile Picture **/
+.me{
+	position: absolute;
+	top: 100px;
+	left: 12%;
+	height:500px;
+	width:500px;
+	border-radius: 2em;
 }
 
-footer a{
-	float: right;
+/** About Me Text**/
+.info{
+	font-family: 'sans-serif';
+	max-width: 50%;
+	float:left;
+	padding:50px;
+	margin-left:45%;
+	color: black;
+	font-size: 1em;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	background-color: white;
+	margin-top:5.5%;
+	border: 5px solid black;
 
 }
+
+/*************** Content PAGE ****************/
+
+/** Contact Layout **/
+.container1{
+	position: relative;
+	max-width:100%;
+	height: 650px;
+	background-image: url(../img/contact.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.gmail-con{
+	position: absolute;
+	right: 125px;
+	top: 160px;
+	color: white;
+	font-size:1.5em;
+	padding-top:10px;
+}
+
+.gmail-con-logo{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	right: 275px;
+	top:0px;
+
+}
+
+
+.twitter-con{
+	position: absolute;
+	right: 125px;
+	top: 225px;
+	color: white;
+	font-size:1.5em;
+	padding-top:10px;
+}
+
+.twitter-con-logo{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	right: 275px;
+	top:0px;
+
+}
+
+.container1 a{
+	color:white;
+}
+
+
+.container1 a:hover{
+	background-color: transparent;
+	color: white;
+	text-decoration-style: none;
+}
+
+.container1 a:visited{
+	color:white;
+	text-decoration: none;
+}
+
